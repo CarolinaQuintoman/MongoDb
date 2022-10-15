@@ -1,9 +1,11 @@
 ###
-POST http://localhost:3020/api/admin HTTP/1.1
+POST http://localhost:3020/api/signup HTTP/1.1
 Content-Type: application/json
 
 {
-    "nombre": "carolina",
-    "apellidos": "quintoman",
-    "email": "caroquinto77@gmail.com"
- }
+    "nombre": "Martha",
+    "apellidos": "Gomez",
+    "email": "gmartha@gmail.com",
+    "password": "proteinas",
+    "confirmarPassword": "proteinas"
+}
